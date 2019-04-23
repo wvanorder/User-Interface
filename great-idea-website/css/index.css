@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+/*font-family: 'Montserrat', sans-serif;*/
+
+
 
 .main-content {
 	width: 900px;
@@ -75,20 +78,31 @@ header{
 }
 
 nav{
-	display: block;
-	margin-top: 15px;
+	margin-top: 0px;
+	overflow: hidden;
+	background-color: burlywood;
+	position: fixed;
+	top: 0;
+	width: 900px;
 }
 
 nav > a {
+	float: left;
+	display: block;
+font-family: 'Montserrat', sans-serif;
  font-size: 20px;
  text-decoration: none;
  color: darkslategray;
- margin: 0px 20px 0px 0px;
+ margin: 20px 20px 5px 0px;
+}
+
+nav > a:hover {
+	color: white;
 }
 
 nav > img {
 	display: inline-block;
-	margin-left: 199px;
+	margin-left: 197px;
     margin-top: 6px;
 }
 
@@ -108,17 +122,27 @@ button {
 	width: 150px;
     margin: 0px 48px 20px 70px;
 	border: 2px solid darkslategray;
-	background: white;
+	background-color: white;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 16px;
 	color: darkslategray;
+	-webkit-transition: width 2s, height 2s, background-color 2s, -webkit-transform 2s;
+	transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+button:hover {
+	background-color: burlywood;
+	height: 60px;
+	width: 300px;
 
 }
+
 
 .snippet{
 	display: inline;
 	width: 40%;
 	height: 40%;
-	margin: 28px 0px 0px 223px;
+	margin: 65px 0px 0px 223px;
 }
 
 .top-content{
@@ -135,6 +159,7 @@ button {
 	display: inline-block;
 	width: 49.5%;
 	margin: 0px 0px 15px 0px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 .bottom-content{
@@ -151,6 +176,7 @@ button {
 	display: inline-block;
 	width: 32.5%;
 	margin: 0px 0px 15px 0px;
+	font-family: 'Montserrat', sans-serif;
 }
 
 address h3 {
