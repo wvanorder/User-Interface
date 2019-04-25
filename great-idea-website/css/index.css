@@ -102,7 +102,7 @@ nav > a:hover {
 
 nav > img {
 	display: inline-block;
-	margin-left: 197px;
+	margin-left: 144px;
     margin-top: 6px;
 }
 
@@ -162,6 +162,10 @@ button:hover {
 	font-family: 'Montserrat', sans-serif;
 }
 
+.middle-img {
+	margin-left: 12px;
+}
+
 .bottom-content{
 	display: inline-block;
 }
@@ -192,4 +196,11 @@ footer {
 	display: block;
 	text-align: center;
 	margin: 40px 40px 40px 40px;
+}
+
+.h1-services {
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-top: 200px;
 }
